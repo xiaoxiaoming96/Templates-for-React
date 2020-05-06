@@ -1,24 +1,24 @@
 "Typical Code for React Class": {
-		"prefix": ["ReactClassTemplate", "rct"],
-		"body": [
-		  "import React, {Component} from 'react';",
-		  "",
-		  "class ${TM_FILENAME_BASE} extends Component {",
-		  "  constructor(props) {",
-		  "    super(props);",
-		  "    this.state = {",
-		  "",
-		  "    };",
-		  "  }",
-		  "",
-		  "  render() {",
-		  "    return (",
-		  "      <div></div>",
-		  "    );",
-		  "  }",
-		  "}",
-		  "",
-		  "export default ${TM_FILENAME_BASE};"
-		],
-		"description": "Typical Code for React Class"
+	"prefix": ["ReactClassTemplate", "rct"],
+	"body": [
+	  "import React, {Component} from 'react';",
+	  "",
+	  "class ${TM_FILENAME_BASE} extends Component {",
+	  "  constructor(props) {",
+	  "    super(props);",
+	  "    this.state = {",
+	  "",
+	  "    };",
+	  "  }",
+	  "",
+	  "  render() {",
+	  "    return (",
+	  "      <div></div>",
+	  "    );",
+	  "  }",
+	  "}",
+	  "",
+	  "export default ${TM_FILENAME_BASE};"
+	],
+	"description": "Typical Code for React Class"
 }
